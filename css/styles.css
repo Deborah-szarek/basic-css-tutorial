@@ -1,2 +1,84 @@
-h1{color: brown;
-background-color: blanchedalmond;}
+/*this is a comment*/
+*, *::before, *::after {
+  box-sizing: inherit;
+}  
+/* this is an id. best to use classes*/
+#the-one{
+    color: green;
+}
+ 
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+    font-family: Arial, Helvetica, 
+    sans-serif;
+    line-height: 1.5rem;
+}
+
+body {
+    background-color: #5d9bbe;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-image: url("/img/pexels-photo-736230.webp");
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+h1 {
+    color: brown;
+    background-color: rgb#5d9bbe;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-left: .5rem
+}
+
+p {
+    font-family: 'Courier New',
+     Courier, monospace;
+    font-weight: bold;
+     /*letter-spacing: -0.2rem;*/
+     word-spacing: 0.3rem;
+}
+/*makes imgs responsive*/
+img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(5, 23, 85);
+ }
+a:hover{
+    color: darkolivegreen;
+}
+a:active { color  
+}
+
+.new-color{
+    color: rgb(134, 125, 255);
+    /*above is color of css lorum ipsim and another h1 heading*/
+    background-color: rgb(74, 19, 85);
+}
+  .box {
+    background-color: pink;
+    width: 300px;
+    padding: 30px;
+    border: 20px solid greenyellow;
+    margin: 30px;  
+}
+
+.standard-box {
+    box-sizing: content-box;
+    }
+  
+ .border-box {
+    padding: 10px 20px 30px 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    }
